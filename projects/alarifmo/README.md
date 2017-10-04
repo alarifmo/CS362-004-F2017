@@ -1,1 +1,1 @@
-#My name is Mohammed Alarifi
+#This is my submission for assignment 2
