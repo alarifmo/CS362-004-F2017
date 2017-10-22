@@ -974,11 +974,10 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			return 0;
 
 		case steward:
-
 			return steward_function(state,  handPos,  currentPlayer,  choice1,  choice2,  choice3);
 /*
-						if (choice1 == 1)
-						{
+			if (choice1 == 1)
+			{
 			//+2 cards
 			drawCard(currentPlayer, state);
 			drawCard(currentPlayer, state);
@@ -1205,7 +1204,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			  }
 			  }
 			  return 0;
-			  */	
+			 */	
 		case treasure_map:
 			//search hand for another treasure_map
 			index = -1;
@@ -1417,12 +1416,17 @@ int steward_function(struct gameState *state, int handPos, int currentPlayer, in
 	{
 		//+2 cards  REPLACED WITH CHOICE 2
 		state->coins = state->coins + 2;	
+		//drawCard(currentPlayer, state);
+		//drawCard(currentPlayer, state);
 		}
 	else if (choice1 == 2)
 	{
-		//                                                    //+2 coins
+		                                                    //+2 coins
 		 drawCard(currentPlayer, state);
                 drawCard(currentPlayer, state);
+
+
+		//state->coins = state->coins + 2;
 
 	}
 	else
