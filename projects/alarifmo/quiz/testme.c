@@ -2,17 +2,43 @@
 #include<string.h>
 #include<stdlib.h>
 #include<time.h>
+#include<time.h>
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+/* To make it real random add more char to char c and char x, i made it this way so the program can find the solution in reasnoable time */
+    
+	char* c="[{( ax}])l";
+
+srand(time(NULL));
+	int randNum;
+	//randNum = rand() % (126 + 1 - 32) + 32;
+
+	//if(randNum >0 && randNum<32 ){
+
+	//randNum=randNum+32;	
+//}
+		randNum=rand()%10;
+
+return c[randNum];
 }
+
+
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+ char* c="reset ";
+srand(time(NULL));
+int randNum;
+ randNum=rand()%6;
+char s[5] ;
+s[0]=c[0];
+s[1]=c[1];
+s[2]=c[2];
+printf("error \n");
+printf("c[0]= %c\n",c[0]);
+printf("s[0]= %c, s[1]=%c, s[2]=%c \n", s[0],s[1],s[2]);
+return s;
 }
 
 void testme()
@@ -20,13 +46,29 @@ void testme()
   int tcCount = 0;
   char *s;
   char c;
+  char* x="reset lkdskljflscmlkjdsljfls";
   int state = 0;
   while (1)
   {
+
+	 srand(time(NULL));
     tcCount++;
     c = inputChar();
-    s = inputString();
-    printf("Iteration %d: c = %c, s = %s, state = %d\n", tcCount, c, s, state);
+    char s[5]; 
+	//= inputString();
+	int num=rand()%20;
+	s[0]=x[num];
+	s[1]=x[num+1];
+	 s[2]=x[num+2];
+	 s[3]=x[num+3];
+ 	s[4]=x[num+4];
+	s[5]='\0';
+	
+
+
+
+
+	printf("Iteration %d: c = %c, s = %s, state = %d\n", tcCount, c, s, state);
 
     if (c == '[' && state == 0) state = 1;
     if (c == '(' && state == 1) state = 2;
@@ -42,7 +84,7 @@ void testme()
        && s[4] == 't' && s[5] == '\0'
        && state == 9)
     {
-      printf("error ");
+      printf("error \n");
       exit(200);
     }
   }
