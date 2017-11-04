@@ -64,7 +64,15 @@ cardtest3: cardtest3.c dominion.o rngs.o
 cardtest44: cardtest44.c dominion.o rngs.o
 	gcc -o cardtest44 -g  cardtest44.c dominion.o rngs.o $(CFLAGS)
 
-unittestresults.out: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c 
+randomtestadventurer: randomtestadventurer.c dominion.o rngs.o
+	gcc -o randomtestadventurer -g  randomtestadventurer.c dominion.o rngs.o $(CFLAGS)
+
+randomtestcard1: randomtestcard1.c dominion.o rngs.o
+	gcc -o randomtestcard1 -g  randomtestcard1.c dominion.o rngs.o $(CFLAGS)	
+randomtestcard2: randomtestcard2.c dominion.o rngs.o
+	gcc -o randomtestcard2 -g  randomtestcard2.c dominion.o rngs.o $(CFLAGS)
+	
+unittestresults.out: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c randomtestadventurer.c
 	make rngs.o
 	make dominion.o
 	
@@ -73,7 +81,7 @@ unittestresults.out: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c
 	echo "unittest1.c:" >> unittestresults.out	
 	unittest1 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
-	
+		
 
 	echo "unittest2.c:" >> unittestresults.out	
 	unittest2 >> unittestresults.out
@@ -103,6 +111,37 @@ unittestresults.out: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c
 	cardtest4 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	
+
+randomtestadventurer.out: randomtestadventurer.c
+	make rngs.o
+	make dominion.o
+        
+	echo "Result for running unit tests:" > randomtestadventurer.out
+	rm dominion.gcda
+	echo "randomtestadventurer.c:" >> randomtestadventurer.out
+	randomtestadventurer >> randomtestadventurer.out
+	gcov -f -b dominion.c >> randomtestadventurer.out
+
+randomtestcard1.out: randomtestcard1.c
+	make rngs.o
+	make dominion.o
+
+	echo "Result for running unit tests:" > randomtestcard1.out
+	rm dominion.gcda
+	echo "randomtestcard1.c:" >> randomtestcard1.out
+	randomtestcard1 >> randomtestcard1.out
+	gcov -f -b dominion.c >> randomtestcard1.out
+
+randomtestcard2.out: randomtestcard2.c
+	make rngs.o
+	make dominion.o
+
+	echo "Result for running unit tests:" > randomtestcard2.out
+	rm dominion.gcda
+	echo "randomtestcard2.c:" >> randomtestcard2.out
+	randomtestcard2 >> randomtestcard2.out
+	gcov -f -b dominion.c >> randomtestcard2.out
+
 dotests: 
 	./ct1
 	./ct2
@@ -112,7 +151,7 @@ dotests:
 	./ut2
 	./ut3
 	./ut4
-	
+	./randomtestadventurer
 dotestsgcov:
 	gcov -f -b unittest1.c
 	gcov -f -b unittest2.c
@@ -122,9 +161,8 @@ dotestsgcov:
 	gcov -f -b cardtest2.c
 	gcov -f -b cardtest3.c
 	gcov -f -b cardtest4.c
+	govc -f -b randomtestadventurer.c
 
-
-all: playdom player testDrawCard testBuyCard badTestDrawCard testUpdateCoins cardtest4 unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 unittestresults.out 
-
+all: playdom player testDrawCard testBuyCard badTestDrawCard testUpdateCoins cardtest4 unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 unittestresults.out randomtestcard1 randomtestcard2 randomtestadventurer randomtestadventurer.out randomtestcard1.out randomtestcard2.out
 clean:
-	rm -f *.o playdom.exe playdom player cardtest1 cardtest2 cardtest3 cardtest4 unittest1 unittest2 unittest3 unittest4 player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
+	rm -f *.o playdom.exe playdom player cardtest1 dominion.gcda cardtest2 randomtestadventurer cardtest3 cardtest4 unittest1 unittest2 unittest3 unittest4 player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe

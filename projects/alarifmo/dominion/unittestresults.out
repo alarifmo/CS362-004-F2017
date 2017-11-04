@@ -12,15 +12,15 @@ result =1 expected result is = 1
 The result is =1 and the expected result is = 1 
  SO the test Passed 
 Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
-Lines executed:100.00% of 8
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
 No calls
 
 Function 'outpost_function'
@@ -29,16 +29,16 @@ No branches
 Calls executed:0.00% of 1
 
 Function 'smithy_function'
-Lines executed:100.00% of 5
-Branches executed:100.00% of 2
-Taken at least once:100.00% of 2
-Calls executed:100.00% of 2
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
 
 Function 'adventure_function'
-Lines executed:93.33% of 15
-Branches executed:100.00% of 12
-Taken at least once:75.00% of 12
-Calls executed:50.00% of 2
+Lines executed:0.00% of 15
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 2
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -53,21 +53,21 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 1
 
 Function 'discardCard'
-Lines executed:84.62% of 13
-Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
-Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Lines executed:0.00% of 205
+Branches executed:0.00% of 177
+Taken at least once:0.00% of 177
+Calls executed:0.00% of 59
 
 Function 'getCost'
-Lines executed:40.00% of 30
-Branches executed:100.00% of 28
-Taken at least once:35.71% of 28
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
 No calls
 
 Function 'drawCard'
@@ -101,7 +101,7 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 3
 
 Function 'whoseTurn'
-Lines executed:100.00% of 2
+Lines executed:0.00% of 2
 No branches
 No calls
 
@@ -122,9 +122,9 @@ No branches
 Calls executed:0.00% of 1
 
 Function 'numHandCards'
-Lines executed:100.00% of 2
+Lines executed:0.00% of 2
 No branches
-Calls executed:100.00% of 1
+Calls executed:0.00% of 1
 
 Function 'buyCard'
 Lines executed:0.00% of 13
@@ -167,10 +167,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:17.53% of 559
+Branches executed:17.75% of 417
+Taken at least once:14.39% of 417
+Calls executed:7.37% of 95
 Creating 'dominion.c.gcov'
 
 unittest2.c:
@@ -183,15 +183,15 @@ test when put the number of cards in hand =5 as it initilized
 result =5 expected result is = 5 
  THE TEST PASS
 Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
-Lines executed:100.00% of 8
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
 No calls
 
 Function 'outpost_function'
@@ -200,16 +200,16 @@ No branches
 Calls executed:0.00% of 1
 
 Function 'smithy_function'
-Lines executed:100.00% of 5
-Branches executed:100.00% of 2
-Taken at least once:100.00% of 2
-Calls executed:100.00% of 2
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
 
 Function 'adventure_function'
-Lines executed:93.33% of 15
-Branches executed:100.00% of 12
-Taken at least once:75.00% of 12
-Calls executed:50.00% of 2
+Lines executed:0.00% of 15
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 2
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -224,21 +224,21 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 1
 
 Function 'discardCard'
-Lines executed:84.62% of 13
-Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
-Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Lines executed:0.00% of 205
+Branches executed:0.00% of 177
+Taken at least once:0.00% of 177
+Calls executed:0.00% of 59
 
 Function 'getCost'
-Lines executed:40.00% of 30
-Branches executed:100.00% of 28
-Taken at least once:35.71% of 28
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
 No calls
 
 Function 'drawCard'
@@ -338,10 +338,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:18.25% of 559
+Branches executed:17.75% of 417
+Taken at least once:14.39% of 417
+Calls executed:8.42% of 95
 Creating 'dominion.c.gcov'
 
 unittest3.c:
@@ -381,15 +381,15 @@ card result = 5, espected= 5
 
  THE TEST PASSES 
 Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
-Lines executed:100.00% of 8
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
 No calls
 
 Function 'outpost_function'
@@ -398,16 +398,16 @@ No branches
 Calls executed:0.00% of 1
 
 Function 'smithy_function'
-Lines executed:100.00% of 5
-Branches executed:100.00% of 2
-Taken at least once:100.00% of 2
-Calls executed:100.00% of 2
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
 
 Function 'adventure_function'
-Lines executed:93.33% of 15
-Branches executed:100.00% of 12
-Taken at least once:75.00% of 12
-Calls executed:50.00% of 2
+Lines executed:0.00% of 15
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 2
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -422,16 +422,16 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 1
 
 Function 'discardCard'
-Lines executed:84.62% of 13
-Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
-Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Lines executed:0.00% of 205
+Branches executed:0.00% of 177
+Taken at least once:0.00% of 177
+Calls executed:0.00% of 59
 
 Function 'getCost'
 Lines executed:40.00% of 30
@@ -536,10 +536,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:20.39% of 559
+Branches executed:24.46% of 417
+Taken at least once:16.79% of 417
+Calls executed:8.42% of 95
 Creating 'dominion.c.gcov'
 
 unittest4.c:
@@ -555,15 +555,15 @@ Result= 0 , expected result = 0
 Result= 1 , expected result = 1 
  The TEST PASSED test's two conditions 
  Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
-Lines executed:100.00% of 8
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
 No calls
 
 Function 'outpost_function'
@@ -572,16 +572,16 @@ No branches
 Calls executed:0.00% of 1
 
 Function 'smithy_function'
-Lines executed:100.00% of 5
-Branches executed:100.00% of 2
-Taken at least once:100.00% of 2
-Calls executed:100.00% of 2
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
 
 Function 'adventure_function'
-Lines executed:93.33% of 15
-Branches executed:100.00% of 12
-Taken at least once:75.00% of 12
-Calls executed:50.00% of 2
+Lines executed:0.00% of 15
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 2
 
 Function 'updateCoins'
 Lines executed:81.82% of 11
@@ -596,16 +596,16 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 1
 
 Function 'discardCard'
-Lines executed:84.62% of 13
-Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
-Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Lines executed:0.00% of 205
+Branches executed:0.00% of 177
+Taken at least once:0.00% of 177
+Calls executed:0.00% of 59
 
 Function 'getCost'
 Lines executed:40.00% of 30
@@ -710,10 +710,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:20.39% of 559
+Branches executed:24.46% of 417
+Taken at least once:16.79% of 417
+Calls executed:8.42% of 95
 Creating 'dominion.c.gcov'
 
 cardtest1.c:
@@ -723,15 +723,15 @@ the hand count = 6 , The expected = 7, the deck = 2 , The expected= 2
 the hand count = 6 , the expected=7, the deck = 3 , the expected= 3
  The test failled 
 Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
-Lines executed:100.00% of 8
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
 No calls
 
 Function 'outpost_function'
@@ -740,10 +740,10 @@ No branches
 Calls executed:0.00% of 1
 
 Function 'smithy_function'
-Lines executed:100.00% of 5
-Branches executed:100.00% of 2
-Taken at least once:100.00% of 2
-Calls executed:100.00% of 2
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
 
 Function 'adventure_function'
 Lines executed:93.33% of 15
@@ -764,16 +764,16 @@ Taken at least once:0.00% of 6
 Calls executed:0.00% of 1
 
 Function 'discardCard'
-Lines executed:84.62% of 13
-Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
+Lines executed:4.39% of 205
 Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Taken at least once:1.13% of 177
+Calls executed:3.39% of 59
 
 Function 'getCost'
 Lines executed:40.00% of 30
@@ -878,10 +878,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:24.51% of 559
+Branches executed:32.85% of 417
+Taken at least once:19.42% of 417
+Calls executed:11.58% of 95
 Creating 'dominion.c.gcov'
 
 cardtest2.c:
@@ -891,15 +891,15 @@ when player play smithy he will draw 3 cards, so the total number of cards will 
  the Number of cards in hand = 6, the expected =7 
  The TEST HAD FAILED 
 Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
-Lines executed:100.00% of 8
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
 No calls
 
 Function 'outpost_function'
@@ -934,14 +934,14 @@ Calls executed:0.00% of 1
 Function 'discardCard'
 Lines executed:84.62% of 13
 Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Taken at least once:50.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
+Lines executed:4.88% of 205
 Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Taken at least once:1.69% of 177
+Calls executed:5.08% of 59
 
 Function 'getCost'
 Lines executed:40.00% of 30
@@ -1046,10 +1046,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:27.55% of 559
+Branches executed:34.77% of 417
+Taken at least once:20.86% of 417
+Calls executed:14.74% of 95
 Creating 'dominion.c.gcov'
 
 cardtest3.c:
@@ -1067,10 +1067,10 @@ the number of card in the deck after playing sea hag= 2 , expected =5
  the the result = the expected, and the top card is = curse  -> the test will pass 
 *****The test FAILl***** 
 Function 'steward_function'
-Lines executed:100.00% of 10
-Branches executed:100.00% of 4
-Taken at least once:100.00% of 4
-Calls executed:100.00% of 5
+Lines executed:0.00% of 10
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 5
 
 Function 'SeaHag_function'
 Lines executed:100.00% of 8
@@ -1110,14 +1110,14 @@ Calls executed:0.00% of 1
 Function 'discardCard'
 Lines executed:84.62% of 13
 Branches executed:100.00% of 6
-Taken at least once:66.67% of 6
+Taken at least once:50.00% of 6
 No calls
 
 Function 'cardEffect'
-Lines executed:6.34% of 205
+Lines executed:5.85% of 205
 Branches executed:12.99% of 177
-Taken at least once:3.39% of 177
-Calls executed:8.47% of 59
+Taken at least once:2.82% of 177
+Calls executed:6.78% of 59
 
 Function 'getCost'
 Lines executed:40.00% of 30
@@ -1222,10 +1222,10 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:31.31% of 559
-Branches executed:36.69% of 417
-Taken at least once:23.74% of 417
-Calls executed:22.11% of 95
+Lines executed:29.34% of 559
+Branches executed:35.73% of 417
+Taken at least once:22.30% of 417
+Calls executed:15.79% of 95
 Creating 'dominion.c.gcov'
 
 cardtest4.c:
