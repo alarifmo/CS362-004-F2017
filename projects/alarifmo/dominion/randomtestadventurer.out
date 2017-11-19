@@ -1,7 +1,7 @@
 Result for running unit tests:
 randomtestadventurer.c:
  Here is the RANDOM Test For the ( adventurer ) 
-pass and count = 1000 
+pass and count = 100000 
 is it updting 
 Function 'steward_function'
 Lines executed:0.00% of 10
@@ -29,7 +29,7 @@ Calls executed:0.00% of 2
 Function 'adventure_function'
 Lines executed:100.00% of 15
 Branches executed:100.00% of 12
-Taken at least once:83.33% of 12
+Taken at least once:91.67% of 12
 Calls executed:100.00% of 2
 
 Function 'updateCoins'
@@ -161,7 +161,7 @@ No calls
 File 'dominion.c'
 Lines executed:23.26% of 559
 Branches executed:25.18% of 417
-Taken at least once:17.03% of 417
+Taken at least once:17.27% of 417
 Calls executed:12.63% of 95
 Creating 'dominion.c.gcov'
 

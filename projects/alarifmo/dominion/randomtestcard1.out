@@ -1,6 +1,6 @@
 Result for running unit tests:
 randomtestcard1.c:
- Here is the RANDOM Test For the ( adventurer ) 
+ Here is the RANDOM Test For the ( smithy ) 
 pass and count = 1000 
 is it updting 
 Function 'steward_function'
@@ -63,9 +63,9 @@ Taken at least once:0.00% of 28
 No calls
 
 Function 'drawCard'
-Lines executed:95.45% of 22
+Lines executed:100.00% of 22
 Branches executed:100.00% of 6
-Taken at least once:83.33% of 6
+Taken at least once:100.00% of 6
 Calls executed:100.00% of 1
 
 Function 'getWinners'
@@ -131,9 +131,9 @@ Taken at least once:0.00% of 10
 Calls executed:0.00% of 3
 
 Function 'shuffle'
-Lines executed:93.75% of 16
+Lines executed:100.00% of 16
 Branches executed:100.00% of 8
-Taken at least once:87.50% of 8
+Taken at least once:100.00% of 8
 Calls executed:100.00% of 2
 
 Function 'initializeGame'
@@ -159,9 +159,9 @@ Taken at least once:75.00% of 4
 No calls
 
 File 'dominion.c'
-Lines executed:23.08% of 559
+Lines executed:23.43% of 559
 Branches executed:24.22% of 417
-Taken at least once:15.35% of 417
+Taken at least once:15.83% of 417
 Calls executed:12.63% of 95
 Creating 'dominion.c.gcov'
 

@@ -1,0 +1,28 @@
+*************BUG NO. 1 ********************
+In when calling the adventurer card, an i implemented my test i got :
+	
+the hand count = 8 , The expected = 7, the deck = 0 , The expected= 2
+the hand count = 8 , the expected=7, the deck = 0 , the expected= 3
+
+The cards in hand and in the deck are being initilized in the test, this is why i know what should we expect. However, here we can see that in the teammate's code the deck got 0 cards while it should get 2 in the first time and 3 in the second. As well as for the handcount. 
+
+
+
+
+*************BUG NO.2 ******************************
+FOR the Smithy Function:
+
+
+we know the Smithy card allow the player to draw 3 cards. so if the player have 5 cards, he will play one, and get 3
+which will make the total = 5-1+3= 7
+
+but in my teammate's code we can see that after running the test we will get:
+
+the Number of cards in hand = 8, the expected =7 
+
+so it either drawing 4 cards instead of 3 or the function did not discards the played card
+
+
+
+
+

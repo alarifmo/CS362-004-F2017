@@ -84,30 +84,37 @@ unittestresults.out: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c
 		
 
 	echo "unittest2.c:" >> unittestresults.out	
+	rm dominion.gcda
 	unittest2 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out	
 	
 	echo "unittest3.c:" >> unittestresults.out
+	rm dominion.gcda
 	unittest3 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	
 	echo "unittest4.c:" >> unittestresults.out
+	rm dominion.gcda
 	unittest4 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	
 	echo "cardtest1.c:" >> unittestresults.out
+	rm dominion.gcda
 	cardtest1 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	
 	echo "cardtest2.c:" >> unittestresults.out
+	rm dominion.gcda
 	cardtest2 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	
 	echo "cardtest3.c:" >> unittestresults.out
+	rm dominion.gcda
 	cardtest3 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	
 	echo "cardtest4.c:" >> unittestresults.out
+	rm dominion.gcda
 	cardtest4 >> unittestresults.out
 	gcov -f -b dominion.c >> unittestresults.out
 	

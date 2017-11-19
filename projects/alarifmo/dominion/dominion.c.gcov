@@ -286,10 +286,10 @@ branch  1 taken 9% (fallthrough)
 call    0 returned 100%
     20020:  216:		newDeck[newDeckPos] = state->deck[player][card];
     20020:  217:		newDeckPos++;
-    65065:  218:		for (i = card; i < state->deckCount[player]-1; i++) {
-branch  0 taken 69%
-branch  1 taken 31% (fallthrough)
-    45045:  219:			state->deck[player][i] = state->deck[player][i+1];
+    70070:  218:		for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 71%
+branch  1 taken 29% (fallthrough)
+    50050:  219:			state->deck[player][i] = state->deck[player][i+1];
         -:  220:		}
     20020:  221:		state->deckCount[player]--;
         -:  222:	}
